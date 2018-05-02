@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+
+  body{
+  margin:0;
+  background-image:url('img/blue.jpg');
+  background-size:cover;
+  background-color:black;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif	;
+
+}
+.navbar {
+    width:100%;
+    overflow: hidden;
+    background-color: white;
+    padding-bottom:10px;
+    height:50px;
+
+
+}
+
+.navbar a {
+    float: right;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    font-family: "Lucida Sans Unicode","Lucida Grande", sans-serif	;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(51,204,153);
+
+}
+
+.navbar a:hover, .dropdown:hover{
+  margin-top:7px;
+
+
+
+}
+
+.navbar:hover{
+  border-bottom:5px solid rgb(51,204,153);
+
+
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(51,204,153);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    font-size:12px;
+    font-weight:700;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(0, 153, 102);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+#logo{
+  float:left;
+  color:black;
+  font-family:arial black;
+  font-size:20px;
+  padding-left:90px;
+  list-style:none;
+  padding-bottom:20px;
+
+}
+
+
+  </style>
+  <title>GETUWIRED</title>
+  <link rel="stylesheet" href="style/style2.css">
+</head>
+<body>
+  <div class="navbar">
+    <!--This is the non-drop elements -->
+    <a href="#contact">CONTACT</a>
+    <a href="#home">BLOG</a>
+
+    <!--Elements with drop down starts here-->
+
+    <div class="dropdown">
+      <button class="dropbtn">PRODUCTS</button>
+      <div class="dropdown-content">
+        <a href="#">NEW ARRIVALS</a>
+        <a href="#">FEATURED</a>
+        <a href="#">TOP RATED</a>
+        <a href="#">HIS</a>
+        <a href="#">HERS</a>
+        <a href="#">KIDS</a>
+        <a href="#">ACCESSORIES</a>
+        <a href="#">SPRING CATALOG</a>
+        <a href="#">THE ESSENTIALS</a>
+        <a href="#">SALE</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">LOCATIONS</button>
+      <div class="dropdown-content">
+        <a href="#">AUSTIN, TX</a>
+        <a href="#">ATLANTA, GA</a>
+        <a href="#">SEATTLE, WA</a>
+        <a href="#">PORTLAND, OR</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">ABOUT</button>
+      <div class="dropdown-content">
+        <a href="#">OUR STORY</a>
+        <a href="#">OUR COMMITMENT TO YOU
+        </a>
+      </div>
+    </div>
+    <ul>
+      <!--Company's logo-->
+      <Li id="logo" href="#">GETUWIRED</li>
+    </ul </div>
+</body>
+</html>
